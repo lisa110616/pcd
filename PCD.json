@@ -1,0 +1,1212 @@
+{
+  "uuid": "a0781ba0-726c-44e3-975d-807dbf3b67f2",
+  "lastMigration": 33,
+  "name": "PCD",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3003,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "b80ec30a-d699-4221-aec5-3e48f9ecec67",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "BestSeller",
+      "responses": [
+        {
+          "uuid": "b1e853b4-f435-4a16-9a8f-c6d4fef4d8a3",
+          "body": "{\r\n  {\r\n    \"id\": 1,\r\n    \"judul\": \"Behel Metal 2 Rahang\",\r\n    \"harga_asli\": 6000000,\r\n    \"harga_diskon\": 2499000,\r\n    \"label_diskon\": \"Rp.2.499.000,–\",\r\n    \"label_spesial\": \"Spesial Nataru\",\r\n    \"gambar\": \"/images/behel1.png\",\r\n    \"periode\": \"S/D 31 Desember 2023\"\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"judul\": \"Behel Metal 2 Rahang\",\r\n    \"harga_asli\": 6000000,\r\n    \"harga_diskon\": 2499000,\r\n    \"label_diskon\": \"2.499.000\",\r\n    \"label_spesial\": \"Spesial Nataru\",\r\n    \"gambar\": \"/images/behel2.png\",\r\n    \"periode\": \"S/D Desember 2023\"\r\n  }\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "\tapplication/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "546324a4-6702-46ff-b995-37575ea7d384",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "Testimoni",
+      "responses": [
+        {
+          "uuid": "b4dbb1bf-a333-478f-9776-2fbea2907377",
+          "body": "{\r\n  {\r\n    \"id\": 1,\r\n    \"nama\": \"Ina Herliana\",\r\n    \"foto\": \"/images/ina.jpg\",\r\n    \"rating\": 5,\r\n    \"waktu\": \"3 hari yang lalu\",\r\n    \"komentar\": \"Tempatnya nyaman banget. Dokter dan adminnya sangat ramah dan sabar. Bisa banget bantu anakku yang awalnya takut jadi mau diperiksa. Thanks yaa.. Keep up the good work!\"\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"nama\": \"John Doe\",\r\n    \"foto\": \"/images/john.jpg\",\r\n    \"rating\": 4,\r\n    \"waktu\": \"1 minggu yang lalu\",\r\n    \"komentar\": \"This treatment is very helpful. The doctor and guidance were clear. I felt comfortable during the demo. Thanks for helping me.\"\r\n  }\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "d4b867db-88b3-4637-a44c-c51abbd4e073",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "InfoTerbaru",
+      "responses": [
+        {
+          "uuid": "d8707916-be55-4da9-a46e-ef437821d24c",
+          "body": "{\n  {\n    \"id\": 1,\n    \"judul\": \"Berapa Harga Behel Damon (Self Ligating)? Yuk Simak Kisaran Harganya!\",\n    \"subjudul\": \"Mau Pakai Behel Damon? Ini Kisaran Harganya!\",\n    \"gambar\": \"/images/behel-damon.jpg\",\n    \"tanggal\": \"23/11/2023\"\n  },\n  {\n    \"id\": 2,\n    \"judul\": \"Berapa Harga Behel Damon (Self Ligating)? Yuk Simak Kisaran Harganya!\",\n    \"subjudul\": \"Mau Pakai Behel Damon? Ini Kisaran Harganya!\",\n    \"gambar\": \"/images/behel-damon.jpg\",\n    \"tanggal\": \"23/11/2023\"\n  },\n  {\n    \"id\": 3,\n    \"judul\": \"Berapa Harga Behel Damon (Self Ligating)? Yuk Simak Kisaran Harganya!\",\n    \"subjudul\": \"Mau Pakai Behel Damon? Ini Kisaran Harganya!\",\n    \"gambar\": \"/images/behel-damon.jpg\",\n    \"tanggal\": \"23/11/2023\"\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "a3a40355-c814-4da4-a8a0-293ea0db68b7",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "Profil",
+      "responses": [
+        {
+          "uuid": "d094b6ba-b669-4374-bfef-2e31afeb1f25",
+          "body": "{\n  {\n  \"status\": \"success\",\n  \"token\": \"fake-jwt-user\",\n  \"user\": {\n    \"id\": 1,\n    \"nama\": \"Ilham Rajab\",\n    \"status\": \"Bestie\",\n    \"poin\": 0,\n    \"avatar\": \"/images/ilham.png\"\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "532c007c-daf7-41e1-8f9c-54de04cdfd16",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "signup",
+      "responses": [
+        {
+          "uuid": "f24649d4-dcbd-4d4b-80c4-8e97868ce761",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"message\": \"Akun berhasil dibuat\",\r\n  \"user\": {\r\n    \"nama\": \"Ilham Rajab\",\r\n    \"status\": \"Bestie\",\r\n    \"poin\": 0\r\n  }\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "sukses ",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "email",
+              "value": "lisa@contoh.com",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "c7e0074f-0fd0-472a-acc1-9aa810e30b0b",
+          "body": "{\r\n  \"status\": \"error\",\r\n  \"field\": \"email\",\r\n  \"message\": \"Email yang dimasukkan sudah terdaftar\"\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 409,
+          "label": "Email Sudah Terdaftar",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "email",
+              "value": "iamidat@outlook.com",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "98276e68-7439-495e-96e7-e0f65a38ab60",
+          "body": "{\r\n  \"status\": \"error\",\r\n  \"field\": \"password\",\r\n  \"message\": \"Password tidak boleh kosong\"\r\n}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "Password Kosong",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "1d11f8f0-846b-4c73-a832-a970a7b8433c",
+          "body": "{\r\n  \"status\": \"error\",\r\n  \"field\": \"username\",\r\n  \"message\": \"Username tidak tersedia\"\r\n}",
+          "latency": 0,
+          "statusCode": 409,
+          "label": " Username error",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "password",
+              "value": "\" \"",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "199d3eb8-96f8-472d-b86c-f02bd7cd8c5e",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "login",
+      "responses": [
+        {
+          "uuid": "7077a657-a938-433d-a332-e3da9ab9fa5c",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"message\": \"Akun berhasil dibuat\",\r\n  \"user\": {\r\n    \"nama\": \"Ilham Rajab\",\r\n    \"status\": \"Bestie\",\r\n    \"poin\": 0\r\n  }\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Login Berhasil",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "email",
+              "value": "iamidat@outlook.com",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "9a2a6996-288f-4f09-a86b-bd974da8dd20",
+          "body": "{\r\n  \"status\": \"error\",\r\n  \"field\": \"email\",\r\n  \"message\": \"Email yang dimasukkan tidak ditemukan\"\r\n}",
+          "latency": 0,
+          "statusCode": 404,
+          "label": "Email Tidak Terdaftar",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "email",
+              "value": "\tiamidat@outlook.com",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "6ab9c8f3-bd76-4e18-9b98-046118ce39a3",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "OTP ",
+      "responses": [
+        {
+          "uuid": "3df2193d-7514-4cd7-88d1-51795ece762c",
+          "body": "{\n  \"status\": \"success\",\n  \"message\": \"OTP berhasil diverifikasi\"\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "OTP berhasil diverifikasi",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "OTP",
+              "value": "123456",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "1c21ac64-fc53-4f85-a17e-ee211e32ec7c",
+          "body": "{\r\n  \"status\": \"error\",\r\n  \"field\": \"otp\",\r\n  \"message\": \"Kode OTP salah\"\r\n}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "OTP salah",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "otp",
+              "value": "123456",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "4a1e20b6-1fd7-4f2a-b2ff-a8724b5cc9bb",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "LengkapiProfesi",
+      "responses": [
+        {
+          "uuid": "abb6970e-799c-462a-9ba8-ddd58438140a",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"message\": \"Profil berhasil disimpan\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Profil Lengkap Berhasil",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "3b4a187f-790e-4808-842f-1450ec81ee80",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "riwayatkunjungan",
+      "responses": [
+        {
+          "uuid": "2c48eb6e-083c-4de8-94f3-24e706d037f2",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"riwayat\": [\r\n    {\r\n      \"tanggal\": \"12 Januari 2024\",\r\n      \"lokasi\": \"Rumah Sakit Advent Bandung\",\r\n      \"waktu\": \"10:00 - 11:00\"\r\n    },\r\n    {\r\n      \"tanggal\": \"31 Desember 2023\",\r\n      \"lokasi\": \"Rumah Sakit Advent Bandung\",\r\n      \"waktu\": \"12:00 - 13:00\"\r\n    },\r\n    {\r\n      \"tanggal\": \"01 Desember 2023\",\r\n      \"lokasi\": \"Rumah Sakit Advent Bandung\",\r\n      \"waktu\": \"12:00 - 13:00\"\r\n    },\r\n    {\r\n      \"tanggal\": \"01 November 2023\",\r\n      \"lokasi\": \"Rumah Sakit Advent Bandung\",\r\n      \"waktu\": \"12:00 - 13:00\"\r\n    }\r\n  ]\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "riwayat",
+              "value": "[ ]",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "riwayat.tanggal",
+              "value": "\" \"",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "riwayat.lokas",
+              "value": "\" \"",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "riwayat.waktu",
+              "value": "\" \"",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "a9060d73-0822-4c30-9c51-75c56c98d315",
+          "body": "{\r\n  \"status\": \"error\",\r\n  \"message\": \"Data riwayat kunjungan tidak valid\"\r\n}",
+          "latency": 0,
+          "statusCode": 400,
+          "label": "Data Tidak Valid",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "cf6f1adc-a787-4fce-b3d8-f693357e27ba",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"riwayat\": []\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "f0c20648-9fe7-4451-b5ce-ab98f4baa3ab",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "RiwayatRekamMedis",
+      "responses": [
+        {
+          "uuid": "f2e3f1df-6c14-492a-97f3-5e4b76a43c3c",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"riwayat\": [\r\n    {\r\n      \"tanggal\": \"12 Januari 2024\",\r\n      \"total\": \"Rp. 500.000\",\r\n      \"tindakan\": [\r\n        {\r\n          \"jenis\": \"Scaling 2 Rahang Kasus Biasa (Kelas 1)\",\r\n          \"nama_pasien\": \"Ilham Rajab\",\r\n          \"jam_penanganan\": \"10:00 – 11:00\",\r\n          \"biaya\": \"Rp. 300.000\"\r\n        },\r\n        {\r\n          \"jenis\": \"Ekstripasi + Reaming (Pembersihan Saluran Akar Sampai Ujung Akar) + Obat Sterilisasi / Saluran Akar\",\r\n          \"nama_pasien\": \"Ilham Rajab\",\r\n          \"jam_penanganan\": \"10:00 – 11:00\",\r\n          \"biaya\": \"Rp. 200.000\"\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"tanggal\": \"12 Desember 2023\",\r\n      \"total\": \"Rp. 600.000\",\r\n      \"tindakan\": [\r\n        {\r\n          \"jenis\": \"Scaling 2 Rahang Kasus Biasa (Kelas 1)\",\r\n          \"nama_pasien\": \"Ilham Rajab\",\r\n          \"jam_penanganan\": \"10:00 – 11:00\",\r\n          \"biaya\": \"Rp. 300.000\"\r\n        },\r\n        {\r\n          \"jenis\": \"Ekstripasi + Reaming (Pembersihan Saluran Akar Sampai Ujung Akar) + Obat Sterilisasi / Saluran Akar\",\r\n          \"nama_pasien\": \"Wade Warren\",\r\n          \"jam_penanganan\": \"10:00 – 11:00\",\r\n          \"biaya\": \"Rp. 600.000\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "nama_pasien",
+              "value": "Ilham Rajab",
+              "invert": false,
+              "operator": "equals"
+            },
+            {
+              "target": "query",
+              "modifier": "tanggal",
+              "value": "12 januari 2024",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "3bb16dad-52ff-4290-92e3-0d861244a1a7",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"riwayat\": []\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "73b387c0-623c-4c35-9dfa-751b0d2ec5f9",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "DaftarKlinik",
+      "responses": [
+        {
+          "uuid": "df4cf1ad-8e28-481a-8271-de6c50426e8a",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"data\": [\r\n    {\r\n      \"nama_klinik\": \"Rumah Sakit Advent\",\r\n      \"alamat\": \"Jl. Cihampelas No.1, Cihampelas, Kecamatan Coblong, Kota Bandung, Jawa Barat 40131\",\r\n      \"jarak\": \"5 KM\",\r\n      \"status\": \"Terdekat\",\r\n      \"hubungi\": true\r\n    },\r\n    {\r\n      \"nama_klinik\": \"Praktik Dokter Gigi Adhy Ganjar Spesialis Ortodonti\",\r\n      \"alamat\": \"Jl. Prof Eyckman No.22A, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat 40161\",\r\n      \"jarak\": \"10 KM\",\r\n      \"status\": \"\",\r\n      \"hubungi\": true\r\n    },\r\n    {\r\n      \"nama_klinik\": \"Mwhite Dental Care Bandung\",\r\n      \"alamat\": \"Jl. Sumpurna No.2, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat 40161\",\r\n      \"jarak\": \"11 KM\",\r\n      \"status\": \"\",\r\n      \"hubungi\": true\r\n    },\r\n    {\r\n      \"nama_klinik\": \"Dokter Gigi Erwin\",\r\n      \"alamat\": \"Jl. Sukajadi No.4, Cipedes, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162\",\r\n      \"jarak\": \"12 KM\",\r\n      \"status\": \"\",\r\n      \"hubungi\": true\r\n    }\r\n  ]\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "c66242bd-e154-4df3-b282-cf1915226ca9",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "DetailKlinik",
+      "responses": [
+        {
+          "uuid": "28c9c6dc-c773-47b1-8f27-13b12cfd21d5",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"data\": {\r\n    \"nama_klinik\": \"Rumah Sakit Advent\",\r\n    \"alamat\": \"Jl. Cihampelas No.161, Cihampelas, Kecamatan Coblong, Kota Bandung, Jawa Barat 40131\",\r\n    \"no_wa\": \"081123456789\",\r\n    \"no_telp\": \"081123456789\",\r\n    \"foto_url\": \"https://example.com/foto-rumah-sakit-advent.jpg\"\r\n  }\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "nama_klinik",
+              "value": "\tRumah Sakit Advent",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "82801d6b-1f32-4622-95ad-fbe82685e69e",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "PilihKlinik",
+      "responses": [
+        {
+          "uuid": "3be19a39-ae48-4a46-b3a3-9f7d538f5502",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"data\": [\r\n    {\r\n      \"nama_klinik\": \"Rumah Sakit Advent\",\r\n      \"alamat\": \"Jl. Cihampelas No.161, Cihampelas, Kecamatan Coblong, Kota Bandung, Jawa Barat 40131\",\r\n      \"jarak\": \"5 KM\",\r\n      \"status\": \"Terdekat\",\r\n      \"pilih\": true\r\n    },\r\n    {\r\n      \"nama_klinik\": \"Praktik Dokter Gigi Adhy Ganjar Spesialis Ortodonti\",\r\n      \"alamat\": \"Jl. Prof Eyckman No.22A, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat 40161\",\r\n      \"jarak\": \"10 KM\",\r\n      \"status\": \"\",\r\n      \"pilih\": true\r\n    },\r\n    {\r\n      \"nama_klinik\": \"Mwhite Dental Care Bandung\",\r\n      \"alamat\": \"Jl. Sumpurna No.2, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat 40161\",\r\n      \"jarak\": \"11 KM\",\r\n      \"status\": \"\",\r\n      \"pilih\": true\r\n    },\r\n    {\r\n      \"nama_klinik\": \"Dokter Gigi Erwin\",\r\n      \"alamat\": \"Jl. Sukajadi No.4, Cipedes, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162\",\r\n      \"jarak\": \"12 KM\",\r\n      \"status\": \"\",\r\n      \"pilih\": true\r\n    }\r\n  ]\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "feaf8018-0ef0-4f12-85af-990fbc16b889",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "PilihJadwal",
+      "responses": [
+        {
+          "uuid": "f35e1bdb-4f14-47e5-b831-d0c11bc11f04",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"data\": {\r\n    \"tanggal_reservasi\": \"12 Januari 2024\",\r\n    \"waktu\": {\r\n      \"pagi\": [\"08:00\", \"09:00\", \"10:00\", \"12:00\"],\r\n      \"siang\": [\"13:00\", \"14:00\", \"15:00\", \"17:00\"],\r\n      \"malam\": [\"18:00\", \"19:00\", \"20:00\", \"21:00\"]\r\n    },\r\n    \"catatan\": \"*waktu dapat berubah jika terjadi situasi urgent\"\r\n  }\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "bd441972-2a98-4333-a313-e0c70412a809",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "Reservasi",
+      "responses": [
+        {
+          "uuid": "0feee90d-892c-4d91-8f6d-8a3e7843e98c",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"message\": \"Reservasi berhasil disimpan!\",\r\n  \"kode_booking\": \"RSAD-20240112-2000\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "fbe4f15e-77e2-441a-ac92-b85d85a4464f",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "JadwalDokter",
+      "responses": [
+        {
+          "uuid": "e04a18ed-213e-4afe-b6c0-95ec39cadf25",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"jadwal\": [\r\n    {\r\n      \"tanggal\": \"Senin, 12 Juni 2023\",\r\n      \"pagi\": {\r\n        \"jam\": \"08:00 - 11:00\",\r\n        \"dokter\": [\"Eva Risna\"]\r\n      },\r\n      \"siang\": {\r\n        \"jam\": \"13:00 - 15:00\",\r\n        \"dokter\": [\"Eva Risnan\", \"Gerry Gharta\"]\r\n      },\r\n      \"malam\": {\r\n        \"jam\": \"18:00 - 20:00\",\r\n        \"dokter\": [\"Tidak ada\"]\r\n      }\r\n    },\r\n    {\r\n      \"tanggal\": \"Selasa, 13 Juni 2023\",\r\n      \"pagi\": {\r\n        \"jam\": \"08:00 - 11:00\",\r\n        \"dokter\": [\"Eva Risna\"]\r\n      },\r\n      \"siang\": {\r\n        \"jam\": \"13:00 - 15:00\",\r\n        \"dokter\": [\"Denny Oktaviansyah\"]\r\n      },\r\n      \"malam\": {\r\n        \"jam\": \"18:00 - 20:00\",\r\n        \"dokter\": [\"Tidak ada\"]\r\n      }\r\n    },\r\n    {\r\n      \"tanggal\": \"Rabu, 14 Juni 2023\",\r\n      \"pagi\": {\r\n        \"jam\": \"08:00 - 11:00\",\r\n        \"dokter\": [\"Eva Risna\"]\r\n      },\r\n      \"siang\": {\r\n        \"jam\": \"13:00 - 15:00\",\r\n        \"dokter\": [\"Denny Oktaviansyah\"]\r\n      },\r\n      \"malam\": {\r\n        \"jam\": \"18:00 - 20:00\",\r\n        \"dokter\": [\"Tidak ada\"]\r\n      }\r\n    },\r\n    {\r\n      \"tanggal\": \"Kamis, 15 Juni 2023\",\r\n      \"pagi\": {\r\n        \"jam\": \"08:00 - 11:00\",\r\n        \"dokter\": [\"Eva Risna\"]\r\n      },\r\n      \"siang\": {\r\n        \"jam\": \"13:00 - 15:00\",\r\n        \"dokter\": [\"Denny Oktaviansyah\"]\r\n      },\r\n      \"malam\": {\r\n        \"jam\": \"18:00 - 20:00\",\r\n        \"dokter\": [\"Tidak ada\"]\r\n      }\r\n    },\r\n    {\r\n      \"tanggal\": \"Jumat, 16 Juni 2023\",\r\n      \"pagi\": {\r\n        \"jam\": \"08:00 - 11:00\",\r\n        \"dokter\": [\"Eva Risna\"]\r\n      },\r\n      \"siang\": {\r\n        \"jam\": \"13:00 - 15:00\",\r\n        \"dokter\": [\"Rudi Oktaviansyah\"]\r\n      },\r\n      \"malam\": {\r\n        \"jam\": \"18:00 - 20:00\",\r\n        \"dokter\": [\"Tidak ada\"]\r\n      }\r\n    },\r\n    {\r\n      \"tanggal\": \"Sabtu, 17 Juni 2023\",\r\n      \"pagi\": {\r\n        \"jam\": \"08:00 - 11:00\",\r\n        \"dokter\": [\"Eva Risna\"]\r\n      },\r\n      \"siang\": {\r\n        \"jam\": \"13:00 - 15:00\",\r\n        \"dokter\": [\"Yuni Kurniasih\"]\r\n      },\r\n      \"malam\": {\r\n        \"jam\": \"18:00 - 20:00\",\r\n        \"dokter\": [\"Tidak ada\"]\r\n      }\r\n    }\r\n  ]\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "f06d438d-2f2f-4c8b-b70c-4380c497cc95",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "DetailBooking",
+      "responses": [
+        {
+          "uuid": "9ed22a5a-6030-4cf4-87ad-1f0bae1218a5",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"data\": {\r\n    \"kode_booking\": \"PDCO38923279\",\r\n    \"tanggal_reservasi\": \"Sabtu, 6 Januari 2024\",\r\n    \"nama_pasien\": \"Ilham Rajab\",\r\n    \"jadwal\": {\r\n      \"tanggal\": \"Jumat, 12 Januari 2024\",\r\n      \"waktu\": \"10:00 - 11:00\"\r\n    },\r\n    \"dokter\": \"drg. Christina Susanti\",\r\n    \"antrian\": {\r\n      \"nomor\": 4,\r\n      \"sisa_antrian\": 3,\r\n      \"estimasi_waktu\": {\r\n        \"jam\": 2,\r\n        \"menit\": 31\r\n      }\r\n    },\r\n    \"klinik\": {\r\n      \"nama\": \"Rumah Sakit Advent\",\r\n      \"alamat\": \"Jl. Cihampelas No.161, Cipeganti, Kecamatan Coblong, Kota Bandung, Jawa Barat 40131\"\r\n    }\r\n  }\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "kode_booking",
+              "value": "PDCO38923279",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "ab071296-9702-4513-bbe5-1feaf54bcad0",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "Reward",
+      "responses": [
+        {
+          "uuid": "ea17ae83-634d-48fa-93c4-016fe5bf69dd",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"data\": {\r\n    \"nama\": \"Ilham Rajab\",\r\n    \"status\": \"Bestie\",\r\n    \"total_poin\": 15,\r\n    \"poin_needed_for_upgrade\": 35,\r\n    \"reward\": [\r\n      {\r\n        \"judul\": \"Voucher Perawatan 10.000\",\r\n        \"poin\": 10,\r\n        \"status\": \"klaim\"\r\n      },\r\n      {\r\n        \"judul\": \"Voucher Perawatan 50.000\",\r\n        \"poin\": 20,\r\n        \"status\": \"klaim\"\r\n      },\r\n      {\r\n        \"judul\": \"Voucher Perawatan 100.000\",\r\n        \"poin\": 30,\r\n        \"status\": \"klaim\"\r\n      }\r\n    ]\r\n  }\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "e09f719d-8537-439e-be2f-013b4c4809be",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "RiwayatPoin",
+      "responses": [
+        {
+          "uuid": "7cdfa0c8-57b9-4b5a-842d-664843599a5f",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"data\": {\r\n    \"sisa_poin\": 15,\r\n    \"berlaku_sampai\": \"31 Desember 2024\",\r\n    \"riwayat\": [\r\n      {\r\n        \"tanggal\": \"09 Januari 2024\",\r\n        \"aktivitas\": \"Reservasi\",\r\n        \"poin\": 10,\r\n        \"status\": \"bertambah\"\r\n      },\r\n      {\r\n        \"tanggal\": \"09 Januari 2024\",\r\n        \"aktivitas\": \"Klaim Voucher Perawatan 100.000\",\r\n        \"poin\": -20,\r\n        \"status\": \"berkurang\"\r\n      },\r\n      {\r\n        \"tanggal\": \"09 Januari 2024\",\r\n        \"aktivitas\": \"Reservasi\",\r\n        \"poin\": 10,\r\n        \"status\": \"bertambah\"\r\n      },\r\n      {\r\n        \"tanggal\": \"08 Desember 2023\",\r\n        \"aktivitas\": \"Pengguna Baru\",\r\n        \"poin\": 15,\r\n        \"status\": \"bertambah\"\r\n      }\r\n    ]\r\n  }\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "11880b92-12c5-4d84-b6c0-d9f26d75dad4",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "CekKeuntungan",
+      "responses": [
+        {
+          "uuid": "7a5be584-b56a-402b-85b7-b62b8cda1d8b",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"data\": {\r\n    \"level\": \"Bestie\",\r\n    \"poin_diperlukan_untuk_naik_level\": 35,\r\n    \"keuntungan\": [\r\n      {\r\n        \"judul\": \"Voucher Perawatan 10.000\",\r\n        \"deskripsi\": \"Tukar dengan 10 poin\"\r\n      },\r\n      {\r\n        \"judul\": \"Voucher Perawatan 50.000\",\r\n        \"deskripsi\": \"Tukar dengan 20 poin\"\r\n      },\r\n      {\r\n        \"judul\": \"Voucher Perawatan 100.000\",\r\n        \"deskripsi\": \"Tukar dengan 30 poin\"\r\n      }\r\n    ]\r\n  }\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "9333f5d5-598e-45e8-9ba6-30a141db3bb5",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "JourneyPlan",
+      "responses": [
+        {
+          "uuid": "3c7e3770-d9c8-4f66-9178-cefe8b3291c9",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"data\": {\r\n    \"nama\": \"Ilham Rajab\",\r\n    \"level\": \"Level 1 - Konsultasi\",\r\n    \"poin_diperlukan_untuk_naik_level\": 100,\r\n    \"progress\": {\r\n      \"bar\": 40,\r\n      \"keterangan\": \"4 misi lagi untuk naik ke Level 2\"\r\n    },\r\n    \"misi\": [\r\n      {\r\n        \"judul\": \"Konsultasi\",\r\n        \"status\": \"done\",\r\n        \"rating\": 5,\r\n        \"tanggal\": \"09 Januari 2024\"\r\n      },\r\n      {\r\n        \"judul\": \"Perawatan\",\r\n        \"status\": \"in_progress\",\r\n        \"rating\": 3,\r\n        \"tanggal\": \"15 Januari 2024\"\r\n      },\r\n      {\r\n        \"judul\": \"Pemasangan\",\r\n        \"status\": \"not_started\",\r\n        \"rating\": 0,\r\n        \"tanggal\": \"20 Januari 2024\"\r\n      },\r\n      {\r\n        \"judul\": \"Kontrol\",\r\n        \"status\": \"not_started\",\r\n        \"rating\": 0,\r\n        \"tanggal\": \"25 Januari 2024\"\r\n      }\r\n    ],\r\n    \"dialog\": {\r\n      \"judul\": \"Yeay, misi sudah selesai!\",\r\n      \"pesan\": \"Ilham Rajab berhasil menyelesaikan misi Konsultasi.\"\r\n    }\r\n  }\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "07e48ff3-ef7f-45c6-b786-2a15b84b512c",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "Member",
+      "responses": [
+        {
+          "uuid": "5d2a8b0c-1fe0-4862-9075-d75d9409d070",
+          "body": "{\r\n  \"status\": \"success\",\r\n  \"data\": {\r\n    \"nama\": \"Ilham Rajab\",\r\n    \"status\": \"Bestie\",\r\n    \"total_poin\": 15,\r\n    \"poin_diperlukan_untuk_naik_level\": 35,\r\n    \"button_ajak_teman\": {\r\n      \"judul\": \"Ajak Teman\",\r\n      \"link\": \"https://example.com/share-link\"\r\n    },\r\n    \"button_cek_keuntungan\": {\r\n      \"judul\": \"Cek Keuntungan\",\r\n      \"link\": \"/cek-keuntungan\"\r\n    }\r\n  }\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "b80ec30a-d699-4221-aec5-3e48f9ecec67"
+    },
+    {
+      "type": "route",
+      "uuid": "546324a4-6702-46ff-b995-37575ea7d384"
+    },
+    {
+      "type": "route",
+      "uuid": "d4b867db-88b3-4637-a44c-c51abbd4e073"
+    },
+    {
+      "type": "route",
+      "uuid": "a3a40355-c814-4da4-a8a0-293ea0db68b7"
+    },
+    {
+      "type": "route",
+      "uuid": "532c007c-daf7-41e1-8f9c-54de04cdfd16"
+    },
+    {
+      "type": "route",
+      "uuid": "199d3eb8-96f8-472d-b86c-f02bd7cd8c5e"
+    },
+    {
+      "type": "route",
+      "uuid": "6ab9c8f3-bd76-4e18-9b98-046118ce39a3"
+    },
+    {
+      "type": "route",
+      "uuid": "4a1e20b6-1fd7-4f2a-b2ff-a8724b5cc9bb"
+    },
+    {
+      "type": "route",
+      "uuid": "3b4a187f-790e-4808-842f-1450ec81ee80"
+    },
+    {
+      "type": "route",
+      "uuid": "f0c20648-9fe7-4451-b5ce-ab98f4baa3ab"
+    },
+    {
+      "type": "route",
+      "uuid": "73b387c0-623c-4c35-9dfa-751b0d2ec5f9"
+    },
+    {
+      "type": "route",
+      "uuid": "c66242bd-e154-4df3-b282-cf1915226ca9"
+    },
+    {
+      "type": "route",
+      "uuid": "82801d6b-1f32-4622-95ad-fbe82685e69e"
+    },
+    {
+      "type": "route",
+      "uuid": "feaf8018-0ef0-4f12-85af-990fbc16b889"
+    },
+    {
+      "type": "route",
+      "uuid": "bd441972-2a98-4333-a313-e0c70412a809"
+    },
+    {
+      "type": "route",
+      "uuid": "fbe4f15e-77e2-441a-ac92-b85d85a4464f"
+    },
+    {
+      "type": "route",
+      "uuid": "f06d438d-2f2f-4c8b-b70c-4380c497cc95"
+    },
+    {
+      "type": "route",
+      "uuid": "ab071296-9702-4513-bbe5-1feaf54bcad0"
+    },
+    {
+      "type": "route",
+      "uuid": "e09f719d-8537-439e-be2f-013b4c4809be"
+    },
+    {
+      "type": "route",
+      "uuid": "11880b92-12c5-4d84-b6c0-d9f26d75dad4"
+    },
+    {
+      "type": "route",
+      "uuid": "9333f5d5-598e-45e8-9ba6-30a141db3bb5"
+    },
+    {
+      "type": "route",
+      "uuid": "07e48ff3-ef7f-45c6-b786-2a15b84b512c"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
